@@ -4,45 +4,94 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assignment Solution for Module 2</title>
-    
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Assignment Solution for Module 3</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles2.css">
   </head>
+    <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div id="header-div" class="container-fluid">
+        <div class="navbar-header">
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1 id="food-llc">Food, LLC</h1></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+</div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#" class="visible-xs">
+                <br class="hidden-sm"> Chicken</a>
+            </li>
+            <li>
+              <a href="#" class="visible-xs">
+                <br class="hidden-sm"> Beef</a>
+            </li>
+            <li>
+              <a href="#" class="visible-xs">
+                <br class="hidden-sm"> Sushi</a>
+            </li>
+
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      <!-- .container-fluid -->
+    </nav><!-- #header-nav -->
+  </header>
 <body class="style">
-  <h1>Our Menu</h1>
+  <h1 class="text-center">Our Menu</h1>
   
-  <div class ="container">
+  <div id ="top-items" class ="container-fluid">
     <div class ="row">
-      <div class= "col-lg-4 col-md-6">
-        <h2 id = "bg1">Chicken</h2>
+      <div id="menu-items" class= "col-md-4 col-sm-12 col-xs-12">
+        <h2 id = "chicken-menu">Chicken</h2>
         <p><span>Tuscan Chicken Skillet:</span>
 Bacon, cream, Parmesan. There's no need to go out to home when you can have this home-style creamy, cheesy chicken and fettuccine here.</p>
         <p><span>Chicken Florentine Style:</span>
 Giada wins weeknight dinners with this quick and delicious take on class chicken breast. She serves it on a bed of buttery spinach, topped with a creamy, sauce.</p>
-
+        <p><span>Tuscan Chicken Skillet:</span>
+Bacon, cream, Parmesan. There's no need to go out to home when you can have this home-style creamy, cheesy chicken and fettuccine here.</p>
+        <p><span>Chicken Florentine Style:</span>
+Giada wins weeknight dinners with this quick and delicious take on class chicken breast. She serves it on a bed of buttery spinach, topped with a creamy, sauce.</p>
       </div>
         
-      <div class= "col-lg-4 col-md-6">
+      <div id="menu-items" class= "col-md-4 col-sm-12 col-xs-12">
      
-        <h2 id = "bg2">Beef</h2>
+        <h2 id = "beef-menu">Beef</h2>
         <p ><span>Greek Tortellini Skillet:</span>
 Looking to please very picky little palates? One lit tester loved this simple skillet entree so much, she made it at home for her 2-year-old daughter.</p>
         <p><span>Sesame Beef Skewers:</span>
 A bottle of sesame ginger dressing makes this dish amazing on any weeknight. And the pineapple salad easily caps off dinner. We can broil the beef, but it's better grilled.</p>
-        
+        <p ><span>Greek Tortellini Skillet:</span>
+Looking to please very picky little palates? One lit tester loved this simple skillet entree so much, she made it at home for her 2-year-old daughter.</p>
+        <p><span>Sesame Beef Skewers:</span>
+A bottle of sesame ginger dressing makes this dish amazing on any weeknight. And the pineapple salad easily caps off dinner. We can broil the beef, but it's better grilled.</p>
       </div>
 
-      <div class= "col-lg-4 col-md-12">
+      <div id="menu-items" class= "col-md-4 col-sm-12 col-xs-12">
      
-        <h2 id = "bg3">Sushi</h2>
+        <h2 id = "sushi-menu">Sushi</h2>
         <p><span>Philly Maki:</span>
 Philly maki is a mash-up of East Meets West ingredients: smoked salmon, cream cheese and cucumber, all wrapped in nori sheets and sushi rice.</p>
         <p><span>PB&J Sushi Roll:</span>
-This PB&J sushi roll is made with bread, peanut butter and jelly. Lorem ipsum, quia dolor sit amet consectetur adipisci velit, quia non numquam eius modi tempora incidunt, ut labore et dolore.</p>
-       
+This PB&J sushi roll is made with bread, peanut butter and jelly. Lorem ipsum, quia dolor sit amet consectetur adipisci velit, quia non numquam eius modi tempora incidunt.</p>
+       <p><span>Philly Maki:</span>
+Philly maki is a mash-up of East Meets West ingredients: smoked salmon, cream cheese and cucumber, all wrapped in nori sheets and sushi rice.</p>
+        <p><span>PB&J Sushi Roll:</span>
+This PB&J sushi roll is made with bread, peanut butter and jelly. Lorem ipsum, quia dolor sit amet consectetur adipisci velit, quia non numquam eius modi tempora incidunt.</p>
         </div>
     </div>
   </div>
-
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
